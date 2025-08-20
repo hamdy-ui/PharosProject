@@ -1,0 +1,664 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.seven-class * {
+  margin: 0;
+  padding: 0;
+}
+
+.first-page {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    z-index: 3;
+    min-height: 100vh; 
+    padding-top: 30px;
+}
+
+
+
+
+/* النافا بار */
+.navbar {
+    transition: all 0.3s ease;
+}
+.navbar-brand img {
+    max-height: 50px;
+}
+.nav-link {
+    color: #fff !important;
+    font-size: 1.1rem;
+    margin-left: 15px;
+}
+
+
+.nav-link:hover {
+    color: #fff !important;
+    background-color: rgba(255, 255, 255, 0.2);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.nav-link:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    background-color: #fff;
+    transition: all 0.3s ease;
+    transform: translateX(-50%);
+}
+
+.nav-link:hover:before {
+    width: 80%;
+}
+
+
+
+/* اللوجو و كلمه بي يو اي  */
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+.navbar-brand img {
+    margin-right: 5px; /* مسافة بسيطة بين اللوجو والنص */
+}
+.navbar-brand span {
+    color: #fff; /* لون النص أبيض زي الروابط */
+    font-size: 1.5rem; /* حجم النص */
+    font-weight: bold; /* نص عريض لو عايزه */
+}
+
+
+.carousel-inner{
+    margin-top: 150px;
+    border-radius: 50px;
+}
+
+
+.navbar{
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+
+
+
+
+.second-page{
+    min-height: 479px;
+    padding: 30px;
+    background-color: #ffffff;
+    position: relative;
+}   
+
+.main-content{
+     background-color: #dbd9f6;
+
+}
+
+/* .main-content{
+    position: absolute;
+    color: #212549;
+    min-height: 324px;
+    width: 335.99px;
+    margin: 0px 80px 30px 0px;
+    padding: 80px 30px 50px;
+    background-color: #9f9be8b6;
+    border-radius: 15px;
+    margin-left: 90px;
+} */
+/* .service-item{
+    position: absolute;
+} */
+
+
+.carousel .service-item {
+  background: #dbd9f6;       
+  border-radius: 15px;        
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1); 
+  padding: 20px;
+  max-width: 350px;           
+  margin: auto;              
+}
+
+.carousel .service-item img {
+  width: 100%;
+  height: 200px;             
+  object-fit: cover;         
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.carousel .service-item h4 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0;
+  color: #333;
+}
+
+.carousel .service-item p {
+  font-size: 14px;
+  color: #555;
+  min-height: 40px; 
+}
+
+.carousel .service-item a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 15px;
+  font-size: 14px;
+  border-radius: 8px;
+}
+
+.carousel-item {
+  transition: transform 0.2s ease-in-out;
+}
+
+.firsstslide img {
+    margin-top: -60px;
+    margin-left: -10px;
+    margin-right: -70px;
+    margin-bottom: 20px;
+    padding-right: 30px;
+    
+}
+
+ /* third */
+.third-page{
+    min-height: 552.8px;
+    margin-top: 100px;
+    padding: 70px;
+    background-color: #ffffff;
+    position: relative;
+    
+}
+
+.leftpage{
+    position:absolute;
+    min-height: 208px;
+    top: 10px;
+    left: 0;
+    width: 636px;
+    color: #212529;
+    background-color: #7a6ad8;
+    margin: 40px 0px;
+    padding: 80px 50px 50px;
+    border-radius: 40px;
+    margin-top: -50px;
+    margin-bottom: 50px;
+    
+}
+
+.righpage{
+    position:absolute;
+    right: 0;
+    top: 0;
+    min-height: 200px;
+    width: 1320px;
+    color: #212529;
+    background-color: #efecfe;
+    margin: 40px 0px;
+    padding: 80px 50px 20px;
+    border-radius: 40px;
+    margin-top:50px ;
+    text-align: right;
+    direction: rtl;
+    
+    
+}
+
+/* pua news bar */
+
+.pua-news-heading {
+  text-align: center;
+  font-weight: bold;
+  font-size: 32px;
+  background: linear-gradient(90deg, #6a5acd, #8a2be2);
+  color: white;
+  padding: 20px 0;
+  border-radius: 12px;
+  margin: 30px 0;
+  box-shadow: 0 4px 10px rgb(255, 254, 254);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* 4th page */
+
+.fourth-page{
+    min-height: 80.8px;
+    min-width: 1296px;
+    background-color: #ffffff;
+    margin: 0px 0px 60px;
+}
+
+.fourbar{
+    text-align: center;
+    font-weight: bold;
+    font-size: 32px;
+    background: linear-gradient(90deg, #6a5acd, #8a2be2);
+    color: white;
+    padding: 20px 0;
+    border-radius: 12px;
+     margin: 30px 0;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+/* 5th page */
+.fith-page{
+    min-height: 1146.78px;
+    background-color: #fefefe;
+}
+
+.custom-card {
+  width: 25%;
+  border-radius: 15px;
+  overflow: hidden;
+  margin: 10px;
+  margin-left: 100px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.custom-card:hover {
+  transform: translateY(-5px);
+}
+
+.custom-card img {
+  height: 180px;
+  object-fit: cover;
+}
+
+.custom-card .card-body {
+  background-color: #f4f1fe;
+}
+
+
+.sixth-page{
+    min-height: 626.4px;
+    color: #212529;
+    margin: 80px 0px 0px;
+    padding: 50px 0px;
+    position: relative;
+}
+
+.circle{
+    position: absolute;
+    /* margin-left: 300px; */
+    margin-left: 200px;
+    margin-right: auto;
+    margin-top: 3%;
+    
+    height: 428.2px;
+    width: 1300px;
+    
+    /* top: 0px;
+    left: 0px; */
+    position: center center;
+    background-color: #efecfe;
+
+    border-top-right-radius: 35%;
+    border-bottom-right-radius: 35%;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+
+
+
+.conta{
+  position :absolute;
+  min-height: 526.4px;
+  width: 636px;
+  background-color: #6a5acd;
+  border-radius: 15%;
+  margin-right:200px;
+  /* margin-bottom: auto; */
+  margin-left: auto;
+}
+
+
+.cot{
+  display: block;
+  margin-top: 45px;
+  margin-left: auto;
+  margin-right:auto;
+  border-radius: 15%;
+  width: 80%;
+  
+}
+
+/* sec body */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f2efff;
+    margin: 0;
+    padding: 0;
+}
+
+.sect {
+    max-width: 700px;
+    margin-right: 80px auto;
+    padding: 40px;
+    background-color: #f2efff;
+}
+
+.sect h6 {
+    font-size: 14px;
+    color: #7d55c7;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.sect h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #111;
+    line-height: 1.3;
+    margin-bottom: 25px;
+}
+
+.sect p {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #666;
+}
+
+
+.seven-class{   
+  display: flex;
+  align-items: center;      
+  justify-content: center;
+  min-height: 100vh;
+  min-height: 150px;
+  background-color: #7d55c7;
+  border-top-left-radius: 25%;
+  border-top-right-radius: 25%;  
+  margin-top: 150px ;
+  padding: 0px 0px 0px 0px !important;
+
+  color: white;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 📱 موبايل صغير (أقل من 576px) */
+@media (max-width: 575.98px) {
+  .nav-link {
+    font-size: 12px;
+    margin-left: 5px;
+  }
+
+  .navbar-brand span {
+    font-size: 1.2rem;
+  }
+
+  .custom-card {
+    width: 100%; 
+    margin-left: 0;
+  }
+
+  .leftpage,
+  .righpage,
+  .conta,
+  .circle {
+    width: 100%;
+    position: relative;
+    margin: 10px 0;
+  }
+}
+
+/* 📱 موبايل (576px - 767px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .nav-link {
+    font-size: 14px;
+  }
+
+  .custom-card {
+    width: 48%; 
+    margin-left: 1%;
+  }
+}
+
+/* 📲 تابلت (768px - 991px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .nav-link {
+    font-size: 16px;
+  }
+
+  .custom-card {
+    width: 30%; 
+    margin-left: 2%;
+  }
+
+  .leftpage,
+  .righpage {
+    width: 100%;
+    position: relative;
+    margin: 20px 0;
+  }
+}
+
+/* 💻 لابتوب (992px - 1199px) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .nav-link {
+    font-size: 17px;
+  }
+
+  .custom-card {
+    width: 22%;
+  }
+}
+
+/* 🖥️ شاشات كبيرة (1200px أو أكبر) */
+@media (min-width: 1200px) {
+  .nav-link {
+    font-size: 18px;
+  }
+}
+
+
+/* 2 */
+
+/* الكروت جوه الكاروسيل */
+.service-item {
+  flex: 1 1 30%;
+  max-width: 30%;
+}
+
+@media (max-width: 576px) {
+  .carousel-item .d-flex {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .service-item {
+    flex: 1 1 100%;
+    max-width: 90%;
+    margin-bottom: 15px;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  .carousel-item .d-flex {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .service-item {
+    flex: 1 1 45%;
+    max-width: 45%;
+    margin-bottom: 15px;
+  }
+}
+
+@media (min-width: 769px) {
+  .carousel-item .d-flex {
+    flex-wrap: nowrap;
+  }
+
+  .service-item {
+    flex: 1 1 30%;
+    max-width: 30%;
+  }
+}
+
+
+  /* صور */
+/* ضبط صور الكاروسيل */
+.carousel-img {
+  display: block;
+  margin: 0 auto;       
+  width: 80%;           
+  height: auto;        
+  object-fit: cover;    
+  border-radius: 12px; 
+}
+
+/* موبايل */
+@media (max-width: 576px) {
+  .carousel-img {
+    width: 100%;   /* تاخد عرض الشاشة كامل */
+    border-radius: 8px;
+  }
+}
+
+/* تابلت */
+@media (min-width: 577px) and (max-width: 992px) {
+  .carousel-img {
+    width: 90%;
+  }
+}
+
+/* لابتوب وديسكتوب */
+@media (min-width: 993px) {
+  .carousel-img {
+    width: 70%;
+  }
+}
+
+
+
+/* Third Page Section */
+.third-page {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 60px 0;
+}
+
+.righpage {
+  flex: 1;
+  padding: 20px;
+}
+
+.leftpage {
+  flex: 1;
+  padding: 20px;
+}
+
+/* -------- Responsive -------- */
+@media (max-width: 992px) {
+  .third-page {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .righpage {
+    order: 1;
+    margin-bottom: 30px;
+  }
+
+  .leftpage {
+    order: 2;
+  }
+
+  .accordion-button {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 576px) {
+  .third-page {
+    padding: 30px 10px;
+  }
+
+  .section-heading h2 {
+    font-size: 20px;
+    line-height: 1.4;
+  }
+
+  .section-heading p {
+    font-size: 14px;
+  }
+
+  .accordion-button {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .accordion-body {
+    font-size: 13px;
+  }
+
+  .main-button a {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+}
+
+
+
+
+.carousel-inner img {
+  width: 100%;
+  height: 500px; 
+  object-fit: cover; 
+}
+
+/* -------- Responsive -------- */
+
+/* 🔹 Tablet screens */
+@media (max-width: 992px) {
+  .carousel-inner img {
+    height: 350px;
+  }
+}
+
+/* 🔹 Mobile screens */
+@media (max-width: 576px) {
+  .carousel-inner img {
+    height: 250px; 
+  }
+}
